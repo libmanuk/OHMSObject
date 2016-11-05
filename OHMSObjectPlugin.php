@@ -2,6 +2,7 @@
 
 /**
  * OHMS Object Embed plugin.
+ * @copyright Copyright 2016 Eric C. Weig 
  */
 
 class OHMSObjectPlugin extends Omeka_Plugin_AbstractPlugin
