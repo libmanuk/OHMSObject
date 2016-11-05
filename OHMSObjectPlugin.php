@@ -1,7 +1,7 @@
 <?php
 
 /**
- * OHMS Object Linker plugin.
+ * OHMS Object Embed plugin.
  */
 class OHMSObjectPlugin extends Omeka_Plugin_AbstractPlugin
 {
