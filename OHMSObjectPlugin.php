@@ -20,7 +20,6 @@ class OHMSObjectPlugin extends Omeka_Plugin_AbstractPlugin
         $theme = is_admin_theme() ? 'admin' : 'public';
         $format = metadata('item', array('Item Type Metadata', 'Interview Format'));
         
-
      if ($theme == 'admin') {
             return "<div class=\"ohms-item\"><p><a href=\"" . $text . "\" target=\"_blank\">" . $text . "</a></p></div>";
                 } else {
