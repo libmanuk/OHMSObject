@@ -3,6 +3,7 @@
 /**
  * OHMS Object Embed plugin.
  */
+
 class OHMSObjectPlugin extends Omeka_Plugin_AbstractPlugin
 {
     protected $_filters = array('insertOHMSObject' => array('Display', 'Item', 'Item Type Metadata', 'OHMS Object'));
