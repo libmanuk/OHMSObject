@@ -1,4 +1,6 @@
-<b>A plugin for Omeka that embeds an OHMS Object via URL paths in the OHMS Object field.</b>
+<h2>omeka-plugin-OHMSObjectPlugin</h2> 
+
+A plugin for Omeka that embeds an OHMS Object via URL paths in the OHMS Object field.
 
 Usage Note:
 
