@@ -1,8 +1,7 @@
 .ohms-item-video {
   position: relative;
-  height: 0;
+  height: 1150px;
   overflow: hidden;
-  padding-bottom: 122%;
 }
  
 .ohms-item-video iframe {
@@ -15,9 +14,8 @@
 
 .ohms-item-audio {
   position: relative;
-  height: 0;
+  height: 950px;
   overflow: hidden;
-  padding-bottom: 100%;
 }
  
 .ohms-item-audio iframe {
