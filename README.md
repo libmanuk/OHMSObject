@@ -11,3 +11,12 @@ Before successfully using this plugin, two Item Type Metadata fields must be cre
 This plugin configures alternate display for the admin vs public themes utilized within Omeka.  In the public theme, an iframe holding the embedded OHMS Viewer (https://github.com/uklibraries/ohms-viewer) is displayed within the item view.  In the admin theme, a simple hyperlink to the OHMS Viewer is displayed. 
 
 This plugin also dynamically adjusts the OHMS Viewer iframe aspect ratio based on the specified interview format.
+
+<b>Install Notes</b>:
+
+1. Download the plugin .zip file from this GitHub page.
+2. Unzip the .zip file.
+3. Copy or move the contents of the .zip file to your Omeka plugins directory.
+3. Rename the new plugin directory so that it is called 'OHMSObject' instead of 'OHMSObject-master'.
+
+The new plugin should now be ready to install and activate from your Omeka administration panel.
