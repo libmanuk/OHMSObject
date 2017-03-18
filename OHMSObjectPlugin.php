@@ -23,9 +23,10 @@ class OHMSObjectPlugin extends Omeka_Plugin_AbstractPlugin
      if ($theme == 'admin') {
             return "<div class=\"ohms-item\"><p><a href=\"" . $text . "\" target=\"_blank\">" . $text . "</a></p></div>";
                 } else {
-            return "<div class=\"ohms-item-" . $format . "\"><iframe src=\"" . $text . "\" name=\"viewer\" height=\"100%\" width=\"100%\" scrolling=\"no\"></iframe></div>";
+            return "<div class=\"ohms-item-" . $format . "\"><iframe id=\"iframeid\" src=\"" . $text . "\" name=\"viewer\" height=\"100%\" width=\"100%\" scrolling=\"no\"></iframe></div>";
                 }
 
     }
 
 }
+
