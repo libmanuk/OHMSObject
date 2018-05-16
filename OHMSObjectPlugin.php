@@ -8,7 +8,7 @@
 class OHMSObjectPlugin extends Omeka_Plugin_AbstractPlugin
 {
     protected $_hooks = array('public_head');
-    protected $_filters = array('insertOHMSObject' => array('Display', 'Item', 'OHMS Element Set', 'OHMS Object'));
+    protected $_filters = array('insertOHMSObject' => array('Display', 'Item', 'Item Type Metadata', 'OHMS Object'));
 
     public function hookPublicHead($args)
     {
@@ -18,7 +18,7 @@ class OHMSObjectPlugin extends Omeka_Plugin_AbstractPlugin
     public function insertOHMSObject($text, $args)
     {
         $theme = is_admin_theme() ? 'admin' : 'public';
-        $format = metadata('item', array('OHMS Element Set', 'Interview Format'));
+        $format = metadata('item', array('Dublin Core', 'Format'));
         
      if ($theme == 'admin') {
             return "<div class=\"ohms-item\"><p><a href=\"" . $text . "\" target=\"_blank\">" . $text . "</a></p></div>";
