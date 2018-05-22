@@ -20,3 +20,6 @@ This plugin also dynamically adjusts the OHMS Viewer iframe aspect ratio based o
 3. Rename the new plugin directory so that it is called 'OHMSObject' instead of 'OHMSObject-master'.
 
 The new plugin should now be ready to install and activate from your Omeka administration panel.
+
+##
+This plugin was created through a partnership between the Louie B. Nunn Center for Oral History and West Chester University and a collaboration between Eric C. Weig, Doug Boyd, and Janneken Smucker.   
