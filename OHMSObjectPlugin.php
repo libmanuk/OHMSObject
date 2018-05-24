@@ -27,7 +27,7 @@ class OHMSObjectPlugin extends Omeka_Plugin_AbstractPlugin
      if ($theme == 'admin') {
             return "<div class=\"ohms-item\"><p><a href=\"" . $text . "\" target=\"_blank\">" . $text . "</a></p></div>";
                 } else {
-            return "<span id=\"vfullscreen\" style=\"float: right;font-size:16px;padding-bottom:10px;padding-top:10px;\"><a href=\"" . $text . "\" target=\"_blank\">access interview in full screen</a>&nbsp;&nbsp;<a href=\"" . $text . "\"><img id=\"vfullscreenicon\" style=\"width: 17px;\" src=\"$base_url/$plugin_subpath/OHMSObject/views/public/images/fullscreenicon.png\"></a></span><div class=\"ohms-item-" . $format . "\"><iframe id=\"iframeid\" src=\"" . $text . "\" name=\"viewer\" height=\"100%\" width=\"100%\" scrolling=\"no\"></iframe></div>";
+            return "<span id=\"vfullscreen\" style=\"float: right;font-size:16px;padding-bottom:10px;padding-top:10px;\"><a href=\"" . $text . "\" target=\"_blank\">access interview in full screen</a>&nbsp;&nbsp;<a href=\"" . $text . "\"><img id=\"vfullscreenicon\" style=\"width: 17px;\" src=\"" . $base_url . "/" . $plugin_subpath . "/OHMSObject/views/public/images/fullscreenicon.png\"></a></span><div class=\"ohms-item-" . $format . "\"><iframe id=\"iframeid\" src=\"" . $text . "\" name=\"viewer\" height=\"100%\" width=\"100%\" scrolling=\"no\"></iframe></div>";
                 }
 
     }
