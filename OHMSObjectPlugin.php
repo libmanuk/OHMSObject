@@ -21,7 +21,7 @@ class OHMSObjectPlugin extends Omeka_Plugin_AbstractPlugin
         $format = metadata('item', array('Dublin Core', 'Format'));
         $plugin_path = realpath(__DIR__ . '/..');
         $plugin_subpath = strstr($plugin_path, 'plugins');
-        $base_url="http://".$_SERVER['SERVER_NAME'].dirname($_SERVER["REQUEST_URI"].'?').'/';
+        $base_url="https://".$_SERVER['SERVER_NAME'].dirname($_SERVER["REQUEST_URI"].'?').'/';
         $base_url=str_replace("/items/show/","","$base_url");
         
      if ($theme == 'admin') {
